@@ -1,0 +1,43 @@
+.main-title {
+    background-color: darkkhaki;
+    padding: 10px;
+    text-align: center;
+}
+
+.title h1 {
+    color: darkblue;
+}
+
+.main {
+    width: 50%;
+    margin:auto
+}
+
+.container {
+    margin: 15px;
+    margin-top: 25px;
+    box-shadow: 10px 10px #6f6464;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddd;
+}
+img {
+    width: 100%;
+    height: auto
+}
+
+@media (max-width:450px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .main {
+        width:90%
+    }
+}
